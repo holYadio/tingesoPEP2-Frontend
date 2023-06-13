@@ -82,20 +82,24 @@ export default function NewProveedor() {
                         </Row>
                         <br />
                         <Row>
-                            <label>Retención: </label>
-                            <input
-                                type="text"
+                            <label>Afecto a retención:</label>
+                            <select
                                 name="retencion"
                                 className={`form-control ${showError && proveedor.categoria === "" ? 'border border-danger' : ''}`}
-                                placeholder="Ingrese la retención"
+                                value={proveedor.retencion}
                                 onChange={handleChange}
-                            />
+                            >
+                                <option value="">Seleccione una opción</option>
+                                <option value="No">No</option>
+                                <option value="Si">Sí</option>
+                            </select>
                         </Row>
                         <br />
                         <div className="d-flex justify-content-center">
                             <button type="submit" className="btn btn-primary">Crear</button>
                         </div>
                     </form>
+                    <br />
                     {showError && (
                         <div className="d-flex justify-content-center">
                             <div className="alert alert-danger" role="alert">
