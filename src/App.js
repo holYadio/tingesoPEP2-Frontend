@@ -7,15 +7,14 @@ import ListAcopio from './components/ListAcopio';
 import ListLaboratorio from './components/ListLaboratorio';
 import ListProveedor from './components/ListProveedor';
 import Planilla from './components/Planilla';
-import NavBar from './layouts/NavBar';
+import NavBarHome from './components/NavBarHome';
 import NewProveedor from './components/NewProveedor';
-
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<NavBar />} >
+          <Route path="/" element={<NavBarHome />} >
             <Route index element={<HomeComponent />} />
             <Route path="planilla" element={<Planilla />} />
             <Route path="list-acopio" element={<ListAcopio />} />

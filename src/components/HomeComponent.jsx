@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import styled from "styled-components";
 import {createGlobalStyle} from "styled-components";
 
@@ -8,8 +8,8 @@ export default function Home(){
             <GlobalStyle/>
             <HomeStyle>
                 <h1>Home</h1>
-                <div class="box-area">
-                    <btn class="btn btn-primary">Primary</btn>
+                <div className="box-area">
+                    <button className="btn btn-primary">Primary</button>
                 </div>
             </HomeStyle>
         </div>
