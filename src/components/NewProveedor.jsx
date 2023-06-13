@@ -45,6 +45,7 @@ export default function NewProveedor() {
         <>
             <div className="d-flex justify-content-center ">
                 <div>
+                    <br />
                     <h1 className="text-center">Agregar Nuevo proveedor</h1>
                     <form className="col-md-12" onSubmit={handleSubmit}>
                         <br />

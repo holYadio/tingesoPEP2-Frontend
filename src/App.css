@@ -13,12 +13,12 @@
 section {
   color: #1f1f1f;
   background-color: #ffffffb7;
-  height: 100vh;
-  
+  height: 95vh;
 }
 
 .navBg {
   background-color: #26ade4;
+  height: 5vh;
 }
 
 .navbar-brand {
