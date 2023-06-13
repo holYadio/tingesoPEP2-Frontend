@@ -22,12 +22,18 @@ section {
 }
 
 .navbar-brand {
-  padding-left: 2%;
+  margin-left: 1vw;
+}
+
+
+.navbar-links .nav-link {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw; /* Ajusta el valor según el espaciado deseado */
 }
 
 .nav-link {
   color: #ffffff;
-  padding-left: 4%;
+  margin-left: 2vw;
 }
 
 .navbar-nav .Link:hover {
@@ -44,11 +50,12 @@ section {
 .dropdown-menu.show {
   border: none;
   color: #ffffff;
-  margin-left: 3.5%;
+  margin-left: 1vw;
 }
 
 .dropdown-item {
   color: #ffffff;
+  margin-left: 1vw;
 }
 
 .dropdown-item:active {

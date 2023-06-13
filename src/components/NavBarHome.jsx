@@ -8,8 +8,8 @@ export default function NavBarComponent() {
             <Navbar className="navBg" expand="lg" variant="dark">
                 <Navbar.Brand href="/">MilkStgo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto">
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
+                    <Nav className="ml-auto navbar-links">
                         <Nav.Link as={Link} to="/">Inicio</Nav.Link>
                         <NavDropdown title="Acopio" id="menu1">
                             <NavDropdown.Item as={Link} to="/file-upload-acopio">Subir Acopio</NavDropdown.Item>
