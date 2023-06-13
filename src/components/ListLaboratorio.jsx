@@ -7,7 +7,6 @@ export default function ListLaboratorio() {
 
     const getLaboratorios = async () => {
         const response = await axios.get("http://localhost:8080/laboratorio");
-        console.log(response);
         setLaboratorios(response.data);
     }
 

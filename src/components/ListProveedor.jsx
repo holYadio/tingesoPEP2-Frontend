@@ -7,7 +7,6 @@ export default function ListProveedor() {
 
     const getProveedores = async () => {
         const response = await axios.get("http://localhost:8080/proveedor");
-        console.log(response);
         setProveedores(response.data);
     }
 
