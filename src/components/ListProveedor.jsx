@@ -20,13 +20,13 @@ export default function ListProveedor() {
             <div>
                 <br />
                 <Row>
-                    <h1>Lista de Proveedores</h1>
+                    <h1 className="text-center">Lista de Proveedores</h1>
                 </Row>
                 <br />
                 <Row>
                     <Col>
                         <Table striped bordered hover>
-                            <thead>
+                            <thead className="text-center">
                                 <tr>
                                     <th>Código</th>
                                     <th>Nombre</th>
@@ -34,7 +34,7 @@ export default function ListProveedor() {
                                     <th>Retención</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody className="text-center">
                                 {proveedores.map((proveedor) => (
                                     <tr key={proveedor.id}>
                                         <td>{proveedor.codigo}</td>

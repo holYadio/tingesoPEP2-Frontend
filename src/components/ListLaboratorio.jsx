@@ -28,6 +28,7 @@ export default function ListLaboratorio() {
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
+                                    <th>#</th>
                                     <th>Proveedor</th>
                                     <th>Quincena</th>
                                     <th>Grasa</th>
@@ -37,6 +38,7 @@ export default function ListLaboratorio() {
                             <tbody className="text-center">
                                 {laboratorios.map((laboratorio) => (
                                     <tr key={laboratorio.id}>
+                                        <td>{laboratorio.id}</td>
                                         <td>{laboratorio.proveedor}</td>
                                         <td>{laboratorio.quincena}</td>
                                         <td>{laboratorio.porcentajeGrasa}</td>
