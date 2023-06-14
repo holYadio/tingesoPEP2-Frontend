@@ -57,6 +57,7 @@ export default function NewProveedor() {
                                 className={`form-control ${showError && proveedor.categoria === "" ? 'border border-danger' : ''}`}
                                 placeholder="Ingrese el código"
                                 onChange={handleChange}
+                                required
                             />
                         </Row>
                         <br />
@@ -68,6 +69,7 @@ export default function NewProveedor() {
                                 className={`form-control ${showError && proveedor.categoria === "" ? 'border border-danger' : ''}`}
                                 placeholder="Ingrese el nombre"
                                 onChange={handleChange}
+                                required
                             />
                         </Row>
                         <br />
@@ -79,6 +81,7 @@ export default function NewProveedor() {
                                 className={`form-control ${showError && proveedor.categoria === "" ? 'border border-danger' : ''}`}
                                 placeholder="Ingrese la categoría"
                                 onChange={handleChange}
+                                required
                             />
                         </Row>
                         <br />
@@ -89,6 +92,7 @@ export default function NewProveedor() {
                                 className={`form-control ${showError && proveedor.categoria === "" ? 'border border-danger' : ''}`}
                                 value={proveedor.retencion}
                                 onChange={handleChange}
+                                required
                             >
                                 <option value="">Seleccione una opción</option>
                                 <option value="No">No</option>
