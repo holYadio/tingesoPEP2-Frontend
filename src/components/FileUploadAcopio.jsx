@@ -33,7 +33,7 @@ export default function FileUploadAcopio() {
                                 onChange={(e) => setSelectedFile(e.target.files[0])}
                                 />
                         </Form.Group>
-                        <div>
+                        <div className="d-flex justify-content-center">
                             <button className="btn btn-primary" type="submit">Subir</button>
                         </div>
                     </Form>
